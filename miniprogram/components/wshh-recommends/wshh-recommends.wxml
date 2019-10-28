@@ -1,0 +1,9 @@
+<!--components/wshh-recommends/wshh-recommends.wxml-->
+<view class='recommends'  >
+<block wx:for='{{recommends}}' wx:key='{{index}}'>
+  <view class='recommends-item' bindtap="clickItem" data-index='{{index}}'>
+  <image src='{{item.url}}'/>
+  <view>{{item.title}}</view>
+  </view>
+</block>
+</view>

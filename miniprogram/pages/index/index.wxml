@@ -1,0 +1,22 @@
+<!--index.wxml-->
+
+<!--1. 展示轮播图 -->
+<wshh-swiper list='{{banner}}' />
+
+<!-- 2.推荐数据的展示 -->
+<wshh-recommends recommends='{{recommends}}' bind:clickItem='recommendClickItem' />
+
+<!-- 3.本周流行 -->
+<wshh-popular bind:imageLoad = 'imageReady'/>
+
+
+<!--4. tab-control控件 -->
+<wshh-tab-control tables="{{tables}}" bind:clickItem="clickItem" id='tab-control' class="{{isFixed ? 'fixed' : ''}}" />
+<!-- 加一个占位 -->
+<wshh-tab-control tables="{{tables}}" wx:if='{{isFixed}}' />
+
+<!-- 5.商品展示 -->
+<wshh-goods goodsItem="{{goodsItem}}" />
+
+<!-- 6.回到顶部 -->
+<!-- <scroll-view scroll-y scroll-top='{{topNum}}' bindscroll='scrollToUpper'> </scroll-view> -->

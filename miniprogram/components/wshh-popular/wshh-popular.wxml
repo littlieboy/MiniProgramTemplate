@@ -1,0 +1,4 @@
+<!--components/wshh-popular/wshh-popular.wxml-->
+<view class='popular'>
+  <image src='/assets/popular/1.jpg' mode='widthFix' bindload="handleImageLoad"></image>
+</view>

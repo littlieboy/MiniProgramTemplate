@@ -1,0 +1,17 @@
+<!--components/wshh-goods/wshh-goods.wxml-->
+
+<view class='goods'>
+  <block wx:for='{{goodsItem}}' wx:key='{{index}}'>
+    <view class='goods-item'>
+      <image class='image' src='{{item.imgsrc}}' mode='widthFix'></image>
+      <view class='desc-info'>
+        <view class='title'>{{item.title}}</view>
+        <view class='info'>
+          <text class='price'>￥{{item.commentCount}}</text>
+          <image class='icon' src='/assets/images/5.jpg'/>
+          <text class='cfav'>{{item.priority}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

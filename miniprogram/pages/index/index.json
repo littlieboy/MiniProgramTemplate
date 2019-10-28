@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "wshh-swiper": "/components/wshh-swiper/wshh-swiper",
+    "wshh-tab-control": "/components/wshh-tab-control/wshh-tab-control",
+    "wshh-popular": "/components/wshh-popular/wshh-popular",
+    "wshh-recommends": "/components/wshh-recommends/wshh-recommends",
+    "wshh-goods": "/components/wshh-goods/wshh-goods"
+  },
+  "navigationBarTitleText": "购物街"
+}

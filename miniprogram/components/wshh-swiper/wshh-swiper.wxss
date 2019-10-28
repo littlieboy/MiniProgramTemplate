@@ -1,0 +1,7 @@
+/* components/wshh-swiper/wshh-swiper.wxss */
+.swiper{
+  width:100%;
+}
+.swiper image{
+  width:750rpx;
+}
